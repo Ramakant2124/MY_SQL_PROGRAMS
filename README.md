@@ -9,13 +9,13 @@ Thank You!!
  # My Sql Syntax
  
 ## DDL Statements: 
-<Create database database_name; 
+>Create database database_name; 
 
-<Drop database database_name;
+>Drop database database_name;
 
-<show databases;
+>show databases;
 
-<show Tables;
+>show Tables;
 
 
 ## DDL Statements: 
