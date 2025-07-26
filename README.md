@@ -10,6 +10,7 @@ Thank You!!
  
 ## DDL Statements: 
 < 1. Create database database_name; 
+
 < 2. Drop database database_name;
 
 ## DDL Statements: 
