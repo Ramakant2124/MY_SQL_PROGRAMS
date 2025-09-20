@@ -67,4 +67,65 @@ Thank You!!
 
 >Select table1.col1, table2.col2 from table1 inner join table2 on table1.colX=table2.colX;
 
+
+
+
+## SQL Syntax Reference
+
+
+>SHOW DATABASES;
+
+>USE database_name;
+
+>SHOW TABLES;
+
+>CREATE TABLE table_name (col1 DATATYPE(size), col2 DATATYPE(size), ...);
+
+>SELECT * FROM table_name;
+
+>INSERT INTO table_name VALUES (val1, val2, ...);
+
+>SELECT col FROM table_name;
+
+>SELECT col1, col2, ... FROM table_name;
+
+>SELECT * FROM table_name WHERE condition;
+  Example condition: col OPERATOR value (e.g., age > 30)
+
+>SELECT * FROM table_name ORDER BY col ASC;
+
+>SELECT * FROM table_name ORDER BY col;
+
+>SELECT * FROM table_name ORDER BY col DESC;
+
+>SELECT * FROM table_name ORDER BY col1, col2;
+
+>SELECT * FROM table_name WHERE col LIKE 'prefix%';
+
+>SELECT * FROM table_name WHERE col LIKE '%suffix';
+
+>SELECT * FROM table_name WHERE col LIKE '%substring%';
+
+>DESC table_name;
+
+>DROP TABLE table_name;
+
+>DROP DATABASE database_name;
+
+>ALTER TABLE table_name ADD col DATATYPE(size);
+
+>UPDATE table_name SET col = value WHERE condition;
+
+>ALTER TABLE table_name DROP COLUMN col;
+
+>ALTER TABLE table_name RENAME COLUMN old_col TO new_col;
+
+>ALTER TABLE table_name MODIFY COLUMN col DATATYPE(size);
+
+>SELECT * FROM table_name WHERE condition1 AND condition2;
+
+>SELECT * FROM table_name WHERE condition1 OR condition2;
+
+>SELECT * FROM table_name WHERE NOT condition;
+
 ### Ramakant Chaudhari
