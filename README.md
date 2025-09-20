@@ -128,4 +128,40 @@ Thank You!!
 
 >SELECT * FROM table_name WHERE NOT condition;
 
+
+>DELETE FROM tbl_name WHERE condition;
+
+
+>DELETE FROM tbl_name;
+
+
+>SELECT MAX(col) FROM tbl_name;
+
+
+>SELECT MIN(col) FROM tbl_name;
+
+ 
+>SELECT COUNT(col) FROM tbl_name;
+
+
+>SELECT AVG(col) FROM tbl_name;
+
+
+>SELECT SUM(col) FROM tbl_name;
+
+
+>INSERT INTO tbl_name (col1, col2, ...) VALUES (val1, val2, ...);
+
+
+>SELECT AGG_FUN(col) AS alias_col FROM tbl_name;
+
+
+>SELECT AGG_FUN(col) FROM tbl_name WHERE condition;
+
+>SELECT * FROM tbl_name WHERE col BETWEEN val1 AND val2;
+
+
+>SELECT * FROM tbl_name WHERE col NOT BETWEEN val1 AND val2;
+
+
 ### Ramakant Chaudhari
