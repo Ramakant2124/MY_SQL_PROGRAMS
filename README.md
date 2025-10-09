@@ -185,4 +185,27 @@ Thank You!!
 
 >DATETIME:-"YYYY-MM-DD hh:mm:ss"
 
+>SELECT tbll.coli, tbli.col2,...tbl2.coll, tbl2.co12,... FROM tb11 INNER JOIN tb12 ON tbli.col tbl2.col; 58) SELECT tbli.coll, tbll.col2....tbl2.coll, tbl2.col2,... FROM tb11 LEFT JOIN tb12 ON tbll.col = tbl2.col;
+
+>SELECT tbl1.coll, tbl1.col2,...tbl2.coll, tbl2.col2,... FROM tb11 RIGHT JOIN tb12 ON tbli.col tbl2.col;
+
+>SELECT tbll.coll, tbl1.col2....tbl2.coll, tbl2.col2.... FROM tb11 LEFT JOIN tb12 ON tbli.coltbl2.col UNION SELECT tbli.coll, tbll.col2,...tbl2.coll,
+
+>tb12.col2,... FROM tb11 RIGHT JOIN tb12 ON tbll.col= tbl2.col;
+
+
+>CREATE TABLE parent tbl(coll colDT(size) PRIMARY KEY, col colDT(size), ....);
+
+>CREATE TABLE child tbl (coli colDT UNIQUE, col colDT (size),..., FOREIGN KEY(col1) REFERENCES parent_tbl(coll) ON DELETE CASCADE ON UPDATE CASCADE);
+
+>CREATE TABLE parent tbl(coli colDT(size) PRIMARY KEY, col colDT(size), ....);
+
+>CREATE TABLE child tbl (coll colDT, col colDT (size),...., FOREIGN KEY(col1) REFERENCES parent_tbl(coll) ON DELETE CASCADE ON UPDATE CASCADE);
+
+>CREATE TABLE parent tbl(coll colDT(size) PRIMARY KEY, col colDT(size), ....);
+
+>CREATE TABLE child_tbl (col2 colDT (size) PRIMARY KEY, col colDT(size), ....);
+
+>CREATE TABLE junction_tbl (coll colDT(size), col2 colDT(size), FOREIGN KEY (coll) REFERENCES parent_tbl(coll),FOREIGN KEY(co12) REFERENCES child_tbl(col2),
+
 ### Ramakant Chaudhari
