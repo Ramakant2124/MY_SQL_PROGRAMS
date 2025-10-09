@@ -163,5 +163,26 @@ Thank You!!
 
 >SELECT * FROM tbl_name WHERE col NOT BETWEEN val1 AND val2;
 
+>SELECT * FROM tbl_name WHERE col NOT BETWEEN val1 AND val2;
+
+>ALTER TABLE tbl name MODIFY COLUMN col coldt (size) NOT NULL;
+
+>ALTER TABLE tbl name MODIFY COLUMN col colDT (Size) DEFAULT val;
+
+>ALTER TABLE tbl name MODIFY COLUMN col colDT (size) UNIQUE;
+
+>ALTER TABLE tbl name MODIFY COLUMN col colDT (size) PRIMARY KEY;
+
+>CREATE TABLE tbl name(col colDT(s) UNIQUE);
+
+>CREATE TABLE tbl name(col colDT(s) NOT NULL);
+
+>CREATE TABLE tbl_name(col colDT(s) DEFAULT val);
+
+>CREATE TABLE tbl_name(col colDT(s) PRIMARY KEY);
+
+>DATE:-"YYYY-MM-DD"
+
+>DATETIME:-"YYYY-MM-DD hh:mm:ss"
 
 ### Ramakant Chaudhari
